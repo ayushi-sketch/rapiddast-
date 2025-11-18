@@ -1,0 +1,13 @@
+application:
+  shortName: "test-app"
+  description: "Testing RapiDAST scan from GitHub"
+  labels:
+    project: "test"
+
+scanners:
+  - name: zap
+    scanType: "full"
+
+targets:
+  - name: "juice-shop"
+    url: "https://juice-shop.herokuapp.com"
